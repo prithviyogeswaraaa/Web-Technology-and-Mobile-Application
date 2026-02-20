@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chennai Map with Hotspots</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+   
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        iframe {
+            border: 3px solid black;
+        }
+        img {
+            border: 4px solid green;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f0f8ff;"> 
+
+    <h1>Chennai City Map</h1>
+
+   
+    <img src="chennai_map.jpg" alt="Chennai Map" usemap="#chennai" width="600">
+
+    <map name="chennai">
+        <area shape="rect" coords="50,50,150,150" 
+              href="https://en.wikipedia.org/wiki/Marina_Beach" 
+              alt="Marina Beach">
+
+        <area shape="rect" coords="200,100,300,200" 
+              href="https://en.wikipedia.org/wiki/Fort_St._George,_India" 
+              alt="Fort St George">
+
+        <area shape="rect" coords="350,150,450,250" 
+              href="https://en.wikipedia.org/wiki/Kapaleeshwarar_Temple" 
+              alt="Kapaleeshwarar Temple">
+    </map>
+
+    <br><br>
+
+   
+    <h2>Embedded Chennai Location</h2>
+
+    <iframe src="https://www.google.com/maps?q=Chennai&output=embed"
+            width="600" height="400">
+    </iframe>
+
+    <br><br>
+
+   
+    <h2>Quick Links</h2>
+    <a href="#top">Go to Top</a> |
+    <a href="https://www.tamilnadutourism.tn.gov.in" target="_blank">
+        Tamil Nadu Tourism
+    </a>
+
+</body>
+</html>
