@@ -1,30 +1,41 @@
-Registration Form Validation
-This repository contains a simple HTML Registration Form validated using JavaScript as part of a college experiment.
+# Registration Form Validation
 
-📌 Aim
+This repository contains a simple **HTML Registration Form** validated using **JavaScript** as part of a college experiment.
+
+## 📌 Aim
+
 To validate user input in a registration form using JavaScript and ensure data integrity before submission.
 
-✅ Features / Validations
+## ✅ Features / Validations
+
 The form validates the following fields:
 
-First Name
+* **First Name**
 
-Must contain only alphabets
-Minimum 6 characters
-Password
+  * Must contain only alphabets
+  * Minimum 6 characters
 
-Minimum 6 characters
-Email
+* **Password**
 
-Must follow the format: name@domain.com
-Mobile Number
+  * Minimum 6 characters
 
-Must contain exactly 10 digits
-Last Name & Address
+* **Email**
 
-Cannot be empty
-🛠️ Technologies Used
-HTML
-JavaScript
-📄 Result
+  * Must follow the format: `name@domain.com`
+
+* **Mobile Number**
+
+  * Must contain exactly 10 digits
+
+* **Last Name & Address**
+
+  * Cannot be empty
+
+## 🛠️ Technologies Used
+
+* HTML
+* JavaScript
+
+## 📄 Result
+
 The HTML form is successfully created and validated using JavaScript.
